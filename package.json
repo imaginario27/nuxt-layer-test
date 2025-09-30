@@ -3,18 +3,24 @@
     "version": "1.0.0",
     "private": true,
     "type": "module",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
     "scripts": {
         "build": "nuxt build",
         "dev": "nuxt dev",
         "generate": "nuxt generate",
         "preview": "nuxt preview",
-        "postinstall": "nuxt prepare"
+        "postinstall": "nuxt prepare",
+        "publish": "dotenv npm publish"
     },
     "dependencies": {
+        "nuxt": "^4.1.2",
         "vue": "^3.5.22",
         "vue-router": "^4.5.1"
     },
     "devDependencies": {
+        "dotenv-cli": "^10.0.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.9.2",
         "vitest": "^3.2.4"
