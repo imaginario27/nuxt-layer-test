@@ -1,7 +1,6 @@
 {
-    "name": "nuxt-layer-test",
+    "name": "@imaginario27/nuxt-layer-test",
     "version": "1.0.0",
-    "private": true,
     "type": "module",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
