@@ -1,6 +1,6 @@
 {
     "name": "@imaginario27/nuxt-layer-test",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "type": "module",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
@@ -10,8 +10,7 @@
         "dev": "nuxt dev",
         "generate": "nuxt generate",
         "preview": "nuxt preview",
-        "postinstall": "nuxt prepare",
-        "publish": "dotenv npm publish"
+        "postinstall": "nuxt prepare"
     },
     "dependencies": {
         "nuxt": "^4.1.2",
