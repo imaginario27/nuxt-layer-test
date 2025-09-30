@@ -1,7 +1,11 @@
 {
     "name": "@imaginario27/nuxt-layer-test",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/imaginario27/nuxt-layer-test.git"
+    },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
     },
